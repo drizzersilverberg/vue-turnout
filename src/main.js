@@ -9,12 +9,14 @@ import store from './store'
 
 import Dashboard from './components/Dashboard';
 import Signin from './components/Signin';
+import Signup from './components/Signup';
 
 const router = new VueRouter({
   mode: 'history',
   routes: [
     { path: '/dashboard', component: Dashboard},
     { path: '/signin', component: Signin},
+    { path: '/signup', component: Signup},
   ]
 })
 
