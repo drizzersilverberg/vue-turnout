@@ -1,5 +1,8 @@
 <template lang="html">
-  <div>Dashboard Component</div>
+  <div>
+    Dashboard component
+    {{ $store.state }}
+  </div>
 </template>
 
 <script>
