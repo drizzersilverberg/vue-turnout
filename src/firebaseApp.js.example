@@ -1,0 +1,15 @@
+import firebase from 'firebase'
+
+// open https://console.firebase.google.com/project/your_project_name/overview
+// click 'add firebase to your web app', copy and add the values corresponding the configuration below 
+
+const config = {
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: ",
+  storageBucket: "",
+  messagingSenderId: ""
+}
+
+export const firebaseApp = firebase.initializeApp(config)
